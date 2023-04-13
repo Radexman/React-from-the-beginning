@@ -2,7 +2,7 @@ const Footer = () => {
 	const date = new Date();
 	const currentYear = date.getFullYear();
 	return (
-		<footer>
+		<footer className="footer">
 			<p>App created in {currentYear}.</p>
 		</footer>
 	);
